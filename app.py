@@ -140,7 +140,7 @@ RULES = {
             "frameworks", "tech stack", "tools"
         ],
         "responses": ["""**Our Tech Stack**:
-```mermaid
+```
 
     Frontend-->React
     Frontend-->Angular
@@ -208,18 +208,7 @@ def main():
         initial_sidebar_state="expanded"
     )
 
-    st.markdown("""
-    <style>
-    
-   
-    }
-    .stChatMessage {
-       
-        background-color: #e6f0fa;
-    }
-    
-    </style>
-      """, unsafe_allow_html=True)
+
     
 
     
