@@ -25,15 +25,15 @@ RULES = {
         "responses": [
             "Hello! Welcome to **AI Vista Solutions**. How can I assist you today?",
             "Hi there! I'm your AI Vista assistant. What can I do for you?",
-            "Greetings! I'm ALI from AI Vista Solutions. How may I help you?"
+            "Greetings! I'm Shoaib from AI Vista Solutions. How may I help you?"
         ]
     },
     "bot_name": {
         "patterns": ["what is your name", "who are you", "your name", "what should I call you"],
         "responses": [
-            "I'm **ALI** , your virtual assistant from AI Vista Solutions!",
-            "You can call me **ALI** - your friendly AI helper from AI Vista Solutions!",
-            "I'm **ALI**, here to assist with all your tech queries."
+            "I'm **Shoaib** , your virtual assistant from AI Vista Solutions!",
+            "You can call me **Shoaib** - your friendly AI helper from AI Vista Solutions!",
+            "I'm **Shoaib**, here to assist with all your tech queries."
         ]
     },
      "gratitude": {
@@ -140,9 +140,7 @@ RULES = {
             "frameworks", "tech stack", "tools"
         ],
         "responses": ["""**Our Tech Stack**:
-```
-
-    Frontend-->React
+```Frontend-->React
     Frontend-->Angular
     Backend-->Python
     Backend-->Node.js
