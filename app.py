@@ -204,7 +204,7 @@ def main():
     st.set_page_config(
         page_title="AI Vista Solutions Assistant",
         
-        layout="centered",
+        layout="wide",
         initial_sidebar_state="expanded"
     )
 
