@@ -222,13 +222,7 @@ def main():
     
     </style>
       """, unsafe_allow_html=True)
-    st.markdown("""
-    <style>
-    .stChatInput {position: fixed; bottom: 2rem; width: 70%;}
-    .stChatMessage {border-radius: 15px; padding: 12px;}
-    .assistant-message {background-color: #f0f2f6;}
-    </style>
-    """, unsafe_allow_html=True)
+    
 
     
     st.title(" AI Vista Solutions Assistant")
