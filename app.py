@@ -210,9 +210,7 @@ def main():
 
     st.markdown("""
     <style>
-    .stApp {
-        background-color: #f9fbfc;
-    }
+    
    
     }
     .stChatMessage {
