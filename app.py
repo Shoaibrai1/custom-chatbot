@@ -214,7 +214,7 @@ def main():
         background-color: #f9fbfc;
     }
     h1 {
-        color: red ;  
+        color: #0a66c2 ;  
     }
     .stChatMessage {
         border-radius: 15px;
