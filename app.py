@@ -220,6 +220,7 @@ def main():
     
     st.title(" AI Vista Solutions Assistant")
     st.markdown("Ask about our **services**, **pricing**, **careers**, or **technical capabilities**!")
+    st.markdown("you can Questions related to Software Company")
 
     
     if "messages" not in st.session_state:
