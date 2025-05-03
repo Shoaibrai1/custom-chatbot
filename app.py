@@ -204,11 +204,30 @@ def main():
     st.set_page_config(
         page_title="AI Vista Solutions Assistant",
         
-        layout="wide",
+        layout="centered",
         initial_sidebar_state="expanded"
     )
 
-    # Custom CSS
+    st.markdown("""
+    <style>
+    .stApp {
+        background-color: #f9fbfc;
+    }
+    h1 {
+        color: blue ;  
+    }
+    .stChatMessage {
+        border-radius: 15px;
+        padding: 12px;
+        background-color: #e6f0fa;
+    }
+    .stChatInput {
+        position: fixed;
+        bottom: 2rem;
+        width: 70%;
+    }
+    </style>
+      """, unsafe_allow_html=True)
     st.markdown("""
     <style>
     .stChatInput {position: fixed; bottom: 2rem; width: 70%;}
