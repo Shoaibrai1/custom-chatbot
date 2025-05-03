@@ -141,7 +141,7 @@ RULES = {
         ],
         "responses": ["""**Our Tech Stack**:
 ```mermaid
-graph LR
+
     Frontend-->React
     Frontend-->Angular
     Backend-->Python
